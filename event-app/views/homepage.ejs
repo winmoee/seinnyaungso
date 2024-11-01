@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partial/head.ejs') %>
+    <%- include('./partials/head.ejs') %>
 
 <body>
-    <%- include('./partial/nav.ejs') %>
+    <%- include('./partials/nav.ejs') %>
     <main>
-      hello
-    </main>
-      <%- include('./partial/footer.ejs') %>
+      တို့ဗမာဟေ့ တို့ဗမာ
+      
+      <form action="/create-event" method="GET">
+        <button type="submit">Create Event</button>
+    </form>
+        </main>
+      <%- include('./partials/footer.ejs') %>
 </body>
 </html>
