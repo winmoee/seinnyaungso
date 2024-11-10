@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input {
+  @apply border border-blue-900 rounded-md;
+}
 /* 
 :root {
   --background: #ffffff;
