@@ -22,6 +22,22 @@ label{
 .btn-primary{
   @apply bg-green-900 text-white px-4 py-1 rounded-md;
 }
+
+table.basic {
+  @apply w-full my-5;
+}
+
+table.basic thead tr td {
+  @apply bg-green-200
+}
+
+table.basic tr td{
+  @apply border border-gray-300 p-1;
+}
+
+table.basic a {
+  @apply bg-green-900 text-white text-sm py-1 rounded-md px-1 inline-flex gap-1;
+}
 /* 
 :root {
   --background: #ffffff;
